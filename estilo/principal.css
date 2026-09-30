@@ -1,0 +1,56 @@
+h1{
+            color: rgb(253, 99, 99);
+        }
+
+        h2{
+            color: crimson;
+            text-transform: lowercase;
+        }
+
+        li{
+            color: rgb(53, 131, 7);
+
+        }
+
+        .azulitas{
+            color: blue;
+        }
+
+
+        #principalC{
+            text-decoration: underline;
+        }
+
+        header{
+            border-color: black;
+            width: 80%;
+        }
+
+        section{
+            border-color: rgb(160, 125, 255);
+            width: 1000px;
+            position: relative;
+        }
+
+        footer{
+            border-color: rgb(22, 235, 171);
+        }
+
+        article{
+            border-color: chartreuse;
+            width: 40%;
+        }
+
+        header,section,article,footer{ /*Tambein agrupan selectores*/
+            border-width: 3px;
+            border-style: solid;
+        }
+
+        #lobo{
+            background-color: rgb(252, 244, 130);
+        }
+
+        #pasoayer{
+            background-color: azure;
+            
+        }
