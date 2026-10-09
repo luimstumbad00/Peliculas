@@ -221,6 +221,12 @@ article {
     background-color: rgb(80, 110, 245);
 }
 
+/* Agregamos esto para que la navbar fija no empuje ni tape el contenido */
+body {
+    margin: 0;
+    padding-top: 80px; 
+}
+
 /* =========================
    NAVBAR
    ========================= */
@@ -233,6 +239,12 @@ article {
     justify-content: flex-end;
     align-items: center;
     box-sizing: border-box;
+
+    /* Posición fija en la pantalla */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
 }
 
 .navbar ul {
